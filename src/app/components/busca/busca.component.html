@@ -1,0 +1,7 @@
+<div class="busca">
+  <!-- <input placeholder="Pesquisa" class="input" (keyup)="onKeyUp($event)"/> -->
+  <input placeholder="Pesquisa" class="input" [(ngModel)]="valorAtual"/>
+  <button (click)="botaoClicado()" mat-icon-button class="botao-pesquisa">
+    <mat-icon class="icone-pesquisa">search</mat-icon>
+  </button>
+</div>
