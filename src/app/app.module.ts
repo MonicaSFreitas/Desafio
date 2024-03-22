@@ -4,7 +4,6 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { GaleriaComponent } from './components/galeria/galeria.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -24,7 +23,6 @@ import { MatButtonModule } from '@angular/material/button';
     AppComponent,
     BrowserModule,
     HttpClientModule,
-    GaleriaComponent,
     FotosComponent,
     MatGridListModule,
     MatPaginatorModule,

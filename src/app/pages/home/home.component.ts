@@ -15,5 +15,5 @@ import { FotosComponent } from '../../components/fotos/fotos.component';
 })
 export class HomeComponent {
 
-  obra = "../assets/img/colorida.jpg"
+
 }
